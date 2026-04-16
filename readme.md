@@ -56,6 +56,14 @@ terraform destroy --auto-approve
 
 ## Screenshots
 
-WordPress running on EC2 instance:
+###WordPress running on EC2 instance:
 
 ![WordPress Screenshot](docs/wordpress.png)
+### Terraform Plan
+![Plan](docs/terraform_plan.png)
+
+### Terraform Destroy
+![Destroy](docs/terraform_destroy.png)
+
+### Project Structure
+![Tree](docs/terraform_tree.png)
