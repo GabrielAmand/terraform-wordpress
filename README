@@ -1,0 +1,26 @@
+# Terraform WordPress Deployment
+
+## Description
+This project deploys a complete WordPress infrastructure on AWS using Terraform.
+
+## Architecture
+- VPC with public and private subnets
+- EC2 instance (WordPress)
+- RDS MySQL (Multi-AZ)
+- EBS volume attached to EC2
+
+## Technologies
+- Terraform
+- AWS (EC2, RDS, VPC, EBS)
+
+## How to use
+
+```bash
+terraform init
+terraform plan
+terraform apply
+
+## Cleanup
+
+```bash
+terraform destroy
